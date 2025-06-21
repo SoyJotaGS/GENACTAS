@@ -1,0 +1,44 @@
+# ================================================================
+# REQUIREMENTS.TXT - Generador de Actas de Operatividad
+# ================================================================
+
+# Dependencias principales (obligatorias)
+python-docx==0.8.11
+
+# Dependencias para PDF en Windows (recomendado)
+pywin32==306; sys_platform == "win32"
+
+# Alternativas multiplataforma para PDF
+docx2pdf==0.1.8
+reportlab==4.0.7
+
+# Librerías adicionales para manejo de documentos
+lxml==4.9.3
+Pillow==10.1.0
+
+# Dependencias para interfaz gráfica mejorada (opcional)
+ttkthemes==3.2.2
+
+# ================================================================
+# INSTALACIÓN:
+# ================================================================
+# 
+# Opción 1 - Instalación básica (Windows con Word):
+# pip install python-docx pywin32
+#
+# Opción 2 - Instalación completa:
+# pip install -r requirements.txt
+#
+# Opción 3 - Solo dependencias principales:
+# pip install python-docx docx2pdf
+#
+# ================================================================
+# NOTAS:
+# ================================================================
+# 
+# - pywin32: Solo para Windows, requiere Microsoft Word
+# - docx2pdf: Alternativa multiplataforma (requiere LibreOffice)
+# - reportlab: Para generar PDFs desde cero
+# - tkinter: Incluido en Python estándar (GUI)
+# 
+# ================================================================
