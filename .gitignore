@@ -1,0 +1,110 @@
+# ================================================================
+# ARCHIVOS SENSIBLES - NO SUBIR A GITHUB
+# ================================================================
+
+# Plantillas de documentos (contienen información sensible)
+*.docx
+*.doc
+MOLDE*.docx
+MOLDE*.doc
+plantillas/
+templates/
+
+# ================================================================
+# ARCHIVOS GENERADOS Y TEMPORALES
+# ================================================================
+
+# Archivos generados por el programa
+ACTA_*.docx
+ACTA_*.pdf
+Acta*.docx
+Acta*.pdf
+
+# Archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos temporales de Office
+~$*.docx
+~$*.doc
+~$*.pptx
+~$*.xlsx
+
+# ================================================================
+# ARCHIVOS DE COMPILACIÓN Y DISTRIBUCIÓN
+# ================================================================
+
+# PyInstaller
+*.spec
+build/
+dist/
+*.manifest
+*.egg-info/
+
+# Nuitka
+*.build/
+*.dist/
+*.onefile-build/
+
+# ================================================================
+# ARCHIVOS DE DESARROLLO
+# ================================================================
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ================================================================
+# ARCHIVOS DE SISTEMA
+# ================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+*.lnk
+
+# ================================================================
+# LOGS Y ARCHIVOS DE RESPALDO
+# ================================================================
+
+# Logs
+*.log
+logs/
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old
+
+# ================================================================
+# ARCHIVOS DE CONFIGURACIÓN LOCAL
+# ================================================================
+
+# Configuraciones locales
+config.local.py
+settings.local.py
+.env.local 
