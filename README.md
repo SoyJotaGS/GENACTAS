@@ -153,14 +153,6 @@ El ejecutable se generará en la carpeta `dist/`.
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 📞 Soporte
-
-Si encuentras algún problema o tienes sugerencias:
-
-- 🐛 [Reportar un bug](https://github.com/tuusuario/generador-actas/issues)
-- 💡 [Solicitar una función](https://github.com/tuusuario/generador-actas/issues)
-- 📧 Contacto: tu-email@ejemplo.com
-
 ## 🎯 Características Futuras
 
 - [ ] Soporte para más tipos de plantillas
